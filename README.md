@@ -2,9 +2,20 @@
 
 Projeto didático para praticar HTML, CSS e JavaScript com páginas de login, dashboard, usuários, produtos e configurações.
 
+## Como clonar o projeto
+
+Você precisa ter o [Git](https://git-scm.com/downloads) instalado. No terminal, execute:
+
+```bash
+git clone https://github.com/leo-gomes-dev/template-admin-poo-javascript.git
+cd template-admin-poo-javascript
+```
+
+O código-fonte está no [GitHub](https://github.com/leo-gomes-dev/template-admin-poo-javascript).
+
 ## Como executar
 
-1. Abra a pasta do projeto no VS Code.
+1. Abra a pasta `template-admin-poo-javascript` no VS Code.
 2. Inicie um servidor local, como a extensão **Live Server**.
 3. Abra `index.html` pelo servidor no navegador.
 4. Entre com as credenciais de demonstração:
