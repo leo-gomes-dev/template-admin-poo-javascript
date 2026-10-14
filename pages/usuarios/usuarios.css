@@ -159,6 +159,32 @@ th {
   border-color: #00c0ef;
 }
 
+/* Ajustes específicos para campos File e Checkbox */
+.form-group input[type='file'] {
+  border: none;
+  padding: 5px 0;
+}
+
+.form-group.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-group.form-checkbox input[type='checkbox'] {
+  width: auto;
+  margin: 0;
+  cursor: pointer;
+}
+
+.form-group.form-checkbox label {
+  display: inline;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
 /* Componentes de Botões (Ações) */
 .btn-box {
   border: none;
@@ -209,9 +235,23 @@ th {
   }
 }
 @media (max-width: 560px) {
-  .dashboard-grid { padding: 12px; gap: 12px; }
-  .cards-container { grid-template-columns: 1fr; }
-  .small-box h3 { font-size: 30px; }
-  th, td { padding: 9px 8px; white-space: nowrap; }
+  .dashboard-grid {
+    padding: 12px;
+    gap: 12px;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+  .small-box h3 {
+    font-size: 30px;
+  }
+  th,
+  td {
+    padding: 9px 8px;
+    white-space: nowrap;
+  }
 }
-:focus-visible { outline: 3px solid #0284c7; outline-offset: 2px; }
+:focus-visible {
+  outline: 3px solid #0284c7;
+  outline-offset: 2px;
+}
